@@ -1,0 +1,89 @@
+/*color of Effective solutions - color: #FFFFFF;*/
+/*color of main text and header  color: #2E2F42; */
+/*color of secondart text - color: #434455;*/
+/*footer text color - color: #E7E9FC;*/
+/*accent color - background: #4D5AE5;*/
+
+:root{
+    --iris-color: #4D5AE5;
+    --navy-blue-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --footer-text-color: #E7E9FC;
+}
+
+
+
+body{
+    background: #E5E5E5;
+    color #434455;
+    font-family: roboto, sans-serif;
+    font-weight: 600;
+}
+
+
+                                                 /* Header */
+.list {
+    list-style: none;
+}
+.logo{
+    color: var(--navy-blue-color);
+}
+.logo .logo-blue{
+    color: var(--iris-color);
+}
+.logo .logo-white {
+    color: #F4F4FD;
+}
+.logo::hover
+.logo::focus
+.logo::active{
+    color: var(--navy-blue-color);
+}
+
+/* site nav */
+
+.site-nav .link{
+    color: var(--navy-blue-color);
+    
+}
+.site-nav .link .auth-link::hover
+.site-nav .link .auth-link::focus
+.site-nav .link .auth-link::active{
+    color:var(--iris-color);
+}
+.auth-link{
+    color: var(--navy-blue-color);
+}
+
+/* main */                                      /* hero */
+
+.hero-title{
+    color: #FFFFFF;
+}
+.hero-text{
+    color: #FFFFFF;
+    background-color: #4D5AE5;;
+}
+
+                                         /* advantages */
+
+    .advantages-title,
+    .team-name{
+        color: var(--navy-blue-color);
+    }
+    .advantages-text,
+    .team-text{
+        color: var(--secondary-text-color);
+    }
+
+
+.photos-title, 
+.team-title{
+    color: var(--navy-blue-color);
+}
+
+                                          /* footer */
+
+.footer-text{
+    color: var(--footer-text-color);
+}                                     
