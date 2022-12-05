@@ -46,7 +46,7 @@ body{
     color: #F4F4FD;
 }
 . link .header-text{
-    color: var(--background-color);
+    color: var(--navy-blue-color);
 
     font-weight: 500;
     font-size: 16px;
@@ -69,15 +69,16 @@ body{
     
 }
 .site-nav .link:hover,
-.site-nav .link:focus,
+.site-nav .link:focus{
+    color: var(--secondary-text-color);
+}
 .site-nav .link:active{
     color:var(--iris-color);
 }
 
 .auth-nav .auth-link:hover,
-.auth-nav .auth-link:focus,
-.auth-nav .auth-link:active {
-    color: var(--iris-color);
+.auth-nav .auth-link:focus{
+    color: var(--iris-color)
 }
 
 .auth-nav .auth-link{
@@ -116,6 +117,7 @@ body{
     font-size: 16px;
     line-height: 1.18;
     display: flex;
+    text-align: center;
     align-items: center;
     letter-spacing: 0.04em;
 }
@@ -192,7 +194,8 @@ body{
     text-align: center;
     letter-spacing: 0.04em;
 }
-.filters-text:active{
+.filters-text:hover,
+.filters-text:focus{
     color: #FFFFFF;
     background-color: var(--iris-color);
 }
